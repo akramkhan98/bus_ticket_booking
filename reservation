@@ -48,9 +48,9 @@ BOOK_ID     CUST_ID      KEY_ID   PASSENGER_NAME     GENDER    SEAT_NO   AGE    
 
 BOOKED_STATUS
 
-BOOKED_ID       AVAILABEL_SEATS     BOOK_DATE
-601             25                  18/11/2018
-602             28                  19/11/2018
+BOOKED_ID       AVAILABEL_SEATS     BOOK_DATE        BUS_ID
+601             25                  18/11/2018       100
+602             28                  19/11/2018       101
 
 PAYMENT_DETAILS
 
