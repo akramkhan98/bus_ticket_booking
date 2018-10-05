@@ -1,0 +1,58 @@
+LOGIN_DETAILS
+
+CUST_ID            USERNAME             PASSWORD
+101                AKRAM                1998
+102                KHAN                 123
+103                ABC                  789
+
+CUSTOMER_DETAILS
+
+CUST_ID         CUST_NAME    GENDER     MOBILE_NUMBER    ADDRESS   D0B
+101             AKRAM          M        1234567899         XYZ    01-03-98
+102             KHAN           M        9874456321         ZXY    02-03-96
+103             ABC            F        4567891253         PQR    18-05-99
+
+BUS_DETAILS
+
+BUS_ID    BUS_TYPE                SEATS     TRAVEL_ID    ROUTE_ID    
+100       SLEEPER                 50           300        200       
+101       NON A/C SLEEPER         50           300        201
+102       A/C SEATER MULTI AXLE   50           301        202
+
+TRAVEL_DETAILS
+
+TRAVEL_ID     NAME        PHONE_NO      ADDRESS
+300           PARVEEN     984125769     CDE
+301           SUNDAR      984756912     VFR
+
+ROUTE_DETAILS
+
+ROUTE_ID       SOURCE        DESTINATION
+200            CHENNAI       BANGALORE
+201            COIMBATORE    BANGALORE
+202            MADURAI       CHENNAI
+
+MAP_DETAILS
+
+KEY_ID      BID     ROUTE_ID
+501         101     200
+502         100     201
+503         102     202
+
+BOOKING_DETAILS
+
+BOOK_ID     CUST_ID      KEY_ID   PASSENGER_NAME     GENDER    SEAT_NO   AGE     DATE_OF_TRAVEL    
+701          101          501     AKRAM              M         22        20      18/04/2019
+702          101          501     SURESH             M         23        20      18/04/2019
+
+
+BOOKED_STATUS
+
+BOOKED_ID       AVAILABEL_SEATS     BOOK_DATE
+601             25                  18/11/2018
+602             28                  19/11/2018
+
+PAYMENT_DETAILS
+
+PAY_ID      CUST_ID       AMOUNT     DATE
+801         101           2500       18/10/2018
